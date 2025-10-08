@@ -1,3 +1,8 @@
+###
+# Monolithic version of TODO API
+# to run -> flask --app flaskr run --debug
+###
+
 from flask import Flask, jsonify, request, abort 
 from flask_sqlalchemy import SQLAlchemy 
 from flask_jwt_extended import (
